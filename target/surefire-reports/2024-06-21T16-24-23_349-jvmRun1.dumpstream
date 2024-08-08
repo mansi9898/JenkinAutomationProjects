@@ -1,0 +1,72 @@
+# Created at 2024-06-21T16:25:05.972
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2024-06-21T16:25:12.569
+Unexpected IOException: 6,1,tests.BookFlightTest,bookFlightTest(tests.BookFlightTest),null,null,null
+
+
+# Created at 2024-06-21T16:25:12.581
+Unexpected IOException with stream: Test passed
+
+
+# Created at 2024-06-21T16:25:16.075
+Unexpected IOException with stream: Jun 21, 2024 4:25:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+
+
+# Created at 2024-06-21T16:25:16.326
+Unexpected IOException: 5,1,tests.CartTest,cartTest(tests.CartTest),functional,null,null
+
+
+# Created at 2024-06-21T16:25:25.059
+Unexpected IOException with stream: Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order
+
+
+# Created at 2024-06-21T16:25:25.066
+Unexpected IOException: 6,1,tests.CartTest,cartTest(tests.CartTest),null,null,null
+
+
+# Created at 2024-06-21T16:25:25.069
+Unexpected IOException with stream: Test passed
+
+
+# Created at 2024-06-21T16:25:28.281
+Unexpected IOException with stream: Jun 21, 2024 4:25:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+
+
+# Created at 2024-06-21T16:25:28.570
+Unexpected IOException: 5,1,tests.CompareTest,compareTest(tests.CompareTest),functional,null,null
+
+
+# Created at 2024-06-21T16:25:39.379
+Unexpected IOException: 6,1,tests.CompareTest,compareTest(tests.CompareTest),null,null,null
+
+
+# Created at 2024-06-21T16:25:39.382
+Unexpected IOException with stream: Test passed
+
+
+# Created at 2024-06-21T16:25:42.574
+Unexpected IOException with stream: Jun 21, 2024 4:25:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 126
+
+
+# Created at 2024-06-21T16:25:42.865
+Unexpected IOException: 5,1,tests.CustomerCareTest,customerCareTest(tests.CustomerCareTest),sanity,null,null
+
+
+# Created at 2024-06-21T16:25:53.705
+Unexpected IOException: 6,1,tests.CustomerCareTest,customerCareTest(tests.CustomerCareTest),null,null,null
+
+
+# Created at 2024-06-21T16:25:53.708
+Unexpected IOException with stream: Test passed
+
+
