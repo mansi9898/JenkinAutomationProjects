@@ -1,6 +1,7 @@
 package pages;
 
 import java.time.Duration;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +24,7 @@ public class NavigationPage {
     
     public void selectAppliances() {
         // Locate and click on the furniture image link
-        WebElement Appliance = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Appliances']")));
+        WebElement Appliance = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//img[@class='_2puWtW _3a3qyb' and @alt='TVs & Appliances' and contains(@src, '717b5077a5e25324.jpg')]")));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", Appliance);
         Appliance.click();
 
@@ -36,7 +37,7 @@ public class NavigationPage {
 
     public void goToOfferZone() {
         // Locate and click on the offer zone link
-        WebElement offerZone = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@class='TSD49J' and @href='/offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone']")));
+        WebElement offerZone = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@class='TSD49J' and text()='Offer Zone']")));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center', inline: 'nearest'});", offerZone);
         offerZone.click();
 
